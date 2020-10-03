@@ -15,7 +15,7 @@ class Dog
     @name 
   end
   def self.print_all 
-    @@all.each {|element| puts element} 
+    @@all.each {|element| puts element.name} 
   end
   def save
     @@all << self 
