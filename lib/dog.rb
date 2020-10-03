@@ -10,7 +10,7 @@ class Dog
     @@all.clear 
   end
   def self.print_all 
-    puts @@all 
+    puts @@all. 
   end
   def save
     @@all << self 
