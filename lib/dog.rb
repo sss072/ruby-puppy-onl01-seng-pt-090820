@@ -9,6 +9,8 @@ class Dog
   def self.clear_all 
     @@all.clear 
   end
+  def name 
+    self 
   def self.print_all 
     @@all.each {|element| puts element} 
   end
